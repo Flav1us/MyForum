@@ -25,6 +25,9 @@
 		<input type="text" name="add_post" >
 		<input type="submit" value="submit">
 	</form>
+	<form action="/MyForum/mainthread" method="get">
+		<input type="submit" value="update page">
+	</form>
 </div>
 
 </body>
