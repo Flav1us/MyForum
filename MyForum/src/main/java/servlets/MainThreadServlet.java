@@ -54,7 +54,6 @@ public class MainThreadServlet extends HttpServlet {
 		case add_post:
 			String new_post = (String) request.getParameter("add_post");
 			Logger.console("new post:\t"+new_post);
-			System.out.println(mt.equals(null));
 			mt.addPost(new ForumPost(new_post));
 			request.setAttribute("thread", mt);
 			getServletContext().getRequestDispatcher("/jsp/mainthread.jsp").forward(request, response);
