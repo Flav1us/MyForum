@@ -6,7 +6,7 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 import entity.ForumThreadAsBytes;
-
+//привет
 public class ForumThreadDAO {
 	private static SessionFactory factory = new Configuration().configure().
 			addAnnotatedClass(ForumThreadAsBytes.class).
